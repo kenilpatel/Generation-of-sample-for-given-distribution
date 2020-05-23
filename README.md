@@ -9,6 +9,7 @@ The type of distribution and the parameters are given as command line arguments.
 An example of a call would besimulateDist50bernoulli 0.3Here we want to generate 50separate samples of bernoullitrials where each trial has a probability of 0.3 of succeeding. The program must also calculate sample mean, sample variance, population mean and population variance.
 
 One possible output is:Values: [1, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0]
+
 Sample Mean: 0.38
 
 Sample Variance: 0.240408163265
@@ -39,17 +40,13 @@ gamma <α> <λ>
 
 normal <μ> <σ>
 
-
-
 How to compile program?
-
 
 In order to compile code just write [python damt.py] and required command line arguments.
 
 format for command line is - python damt.py <number-of-samples> <distribution> <parameters>
 
 after succesfull compilation of program program will ask you to input seed value and on the basis of that seed value,random value will be generated.
-
 
 
 Libraries used 
